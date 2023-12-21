@@ -1,8 +1,7 @@
-/*
- * Adds two given integers and prints the result in a fancy way.
- */
 public class AddTwo {
 	public static void main(String[] args) {
-		// Put your code here	
+		int a = 5;
+		int b = 10;
+		System.out.print("I will now add " + a + " with " + b + " to get the value: " + (a+b));
 	}
 }
