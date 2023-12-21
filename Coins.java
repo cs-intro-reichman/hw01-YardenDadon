@@ -4,6 +4,10 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		Testing the commit function
+		int a = Integer.parseInt (args[0]);
+		int quarters = a/25;
+		int leftover = a % 25;
+
+		System.out.print("Use " + quarters + " quarters and " + leftover + " cents");
 	}
 }
