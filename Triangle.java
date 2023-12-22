@@ -7,10 +7,10 @@ public class Triangle {
 		int check2 = b + c;
 		int check3 = c + a;
 		if (check1 > c && check2 > a) {
-			System.out.println(a + ", " + b + ", " + c + ": True");}
+			System.out.println(a + ", " + b + ", " + c + ": true");}
 		else if (check3 > b && check1 > c){
-			System.out.println(a + ", " + b + ", " + c + ": True");}
+			System.out.println(a + ", " + b + ", " + c + ": true");}
 			else {
-			System.out.println(a + ", " + b + ", " + c + ": False");}
+			System.out.println(a + ", " + b + ", " + c + ": false");}
 	}
 }
